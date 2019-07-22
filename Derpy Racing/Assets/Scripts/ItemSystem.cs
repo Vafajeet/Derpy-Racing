@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ItemSystem : MonoBehaviour
 {
+    CharacterController2D player;
     [SerializeField] GameObject[] Items;
     [SerializeField] int curIndex;
     [SerializeField] Transform[] spawnLocal;
@@ -14,7 +15,7 @@ public class ItemSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        player = GetComponent<CharacterController2D>();
     }
 
     // Update is called once per frame
@@ -46,5 +47,12 @@ public class ItemSystem : MonoBehaviour
         curCooldown = 0;
         Instantiate(Items[curIndex], spawnLocal[curIndex]);
         pressed = false;
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject == player.gameObject)
+        {
+            Instantiate(Items[curIndex], spawnLocal[curIndex]);
+        }
     }
 }
