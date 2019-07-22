@@ -2,7 +2,7 @@
 
 [RequireComponent(typeof(BoxCollider2D))]
 
-public class CharacterController2D : MonoBehaviour
+public class CharacterController2D2 : MonoBehaviour
 {
     [SerializeField]
     float speed = 9;
@@ -31,7 +31,7 @@ public class CharacterController2D : MonoBehaviour
         if (grounded)
         {
             velocity.y = 0;
-            if (Input.GetButtonDown("Jump1"))
+            if (Input.GetButtonDown("Jump3"))
                 velocity.y = Mathf.Sqrt(2 * jumpHeight * Mathf.Abs(Physics2D.gravity.y));
 
 
@@ -42,7 +42,7 @@ public class CharacterController2D : MonoBehaviour
         float acceleration = grounded ? walkAcceleration : airAcceleration;
         float deceleration = grounded ? groundDeceleration : 0;
         //joystick for movement
-        float buttons = Input.GetAxisRaw("MH1");
+        float buttons = Input.GetAxisRaw("MH3");
 
         //side to side movement
         if (buttons != 0)
