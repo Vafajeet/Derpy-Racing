@@ -75,4 +75,23 @@ public class CharacterController2D1 : MonoBehaviour
         }
 
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Glue"))
+        {
+            Debug.Log("Hello");
+            speed = 4;
+            //jumpHeight = 0;
+            //airAcceleration = 0;
+
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+       
+        speed = 9;
+        //jumpHeight = 4;
+        //airAcceleration = 30;
+    }
 }

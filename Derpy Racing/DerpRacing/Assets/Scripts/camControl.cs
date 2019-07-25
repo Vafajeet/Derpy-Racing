@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class camControl : MonoBehaviour
 {
-    public List<Transform> targets;
+    [SerializeField]
+    private List<Transform> targets = new List<Transform>();
 
     public Vector3 offset;
     public float smooth = .5f;
     private Vector3 velocity;
-
+    public Transform player1;
+    public Transform player2;
+    public Transform player3;
+    public Transform player4;
     public float minZoom = 40f;
     public float maxZoom = 10f;
 
@@ -17,9 +21,24 @@ public class camControl : MonoBehaviour
 
     private Camera cam;
 
+    private void Awake()
+    {
+        if (player1 != null)
+            targets.Add(player1);
+
+        if (player2 != null)
+            targets.Add(player2);
+
+        if (player3 != null)
+            targets.Add(player3);
+
+        if (player4 != null)
+            targets.Add(player4);
+    }
     private void Start()
     {
         cam = GetComponent<Camera>();
+
     }
     private void FixedUpdate()
     {
@@ -29,7 +48,7 @@ public class camControl : MonoBehaviour
 
         Move();
         Zoom();
-       
+
     }
     void Zoom()
     {
@@ -56,7 +75,7 @@ public class camControl : MonoBehaviour
     }
     Vector3 GetCenterPoint()
     {
-        if(targets.Count == 1)
+        if (targets.Count == 1)
         {
             return targets[0].position;
         }
@@ -64,7 +83,12 @@ public class camControl : MonoBehaviour
 
         for (int i = 0; i < targets.Count; i++)
         {
-            bounds.Encapsulate(targets[i].position);
+            if (targets[i].gameObject.activeInHierarchy == false)
+            {
+                targets.RemoveAt(i);
+            }
+            if (targets.Count > 1)
+                bounds.Encapsulate(targets[i].position);
 
         }
         return bounds.center;

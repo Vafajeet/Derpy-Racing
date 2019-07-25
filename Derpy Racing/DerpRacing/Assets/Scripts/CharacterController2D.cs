@@ -17,6 +17,7 @@ public class CharacterController2D : MonoBehaviour
     private BoxCollider2D boxCollider;
     private Vector2 velocity;
     private bool grounded;
+
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
@@ -25,6 +26,8 @@ public class CharacterController2D : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
+
     private void Update()
     {
         //jump input
@@ -41,6 +44,7 @@ public class CharacterController2D : MonoBehaviour
         velocity.y += Physics2D.gravity.y * Time.deltaTime;
         float acceleration = grounded ? walkAcceleration : airAcceleration;
         float deceleration = grounded ? groundDeceleration : 0;
+
         //joystick for movement
         float buttons = Input.GetAxisRaw("MH1");
 
@@ -71,7 +75,29 @@ public class CharacterController2D : MonoBehaviour
                 }
                 transform.Translate(colDistance.pointA - colDistance.pointB);
             }
+
+
         }
 
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Glue"))
+        {
+            Debug.Log("Hello");
+            speed = 4;
+            //jumpHeight = 0;
+            //airAcceleration = 0;
+
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        Debug.Log("Goodbye");
+        speed = 9;
+        //jumpHeight = 4;
+        //airAcceleration = 30;
     }
 }
