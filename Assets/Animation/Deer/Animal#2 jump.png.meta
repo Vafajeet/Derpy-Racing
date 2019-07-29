@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: b0fa5beef7ac4da4388592f529ebc033
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3563457831679088780
+    second: Animal#2 jump_0
+  - first:
+      213: -6092535079054209738
+    second: Animal#2 jump_1
+  - first:
+      213: -1392355592534723303
+    second: Animal#2 jump_2
+  - first:
+      213: -7397576334098746671
+    second: Animal#2 jump_3
+  - first:
+      213: 1717356245197294056
+    second: Animal#2 jump_4
+  - first:
+      213: 7926965369183802893
+    second: Animal#2 jump_5
+  - first:
+      213: -4634905376747910467
+    second: Animal#2 jump_6
+  - first:
+      213: 3958649546618244888
+    second: Animal#2 jump_7
+  - first:
+      213: -2547477456209863572
+    second: Animal#2 jump_8
+  - first:
+      213: 538146954172225915
+    second: Animal#2 jump_9
+  - first:
+      213: 2444513470830345875
+    second: Animal#2 jump_10
+  - first:
+      213: 3185251724668839586
+    second: Animal#2 jump_11
+  - first:
+      213: -9006875949653625590
+    second: Animal#2 jump_12
+  - first:
+      213: 1047934691739652750
+    second: Animal#2 jump_13
+  - first:
+      213: -3762875368947984915
+    second: Animal#2 jump_14
+  - first:
+      213: 1298191638613166561
+    second: Animal#2 jump_15
+  - first:
+      213: -2780487608051191093
+    second: Animal#2 jump_16
+  - first:
+      213: -7635125877985436512
+    second: Animal#2 jump_17
+  - first:
+      213: 7169041914101069893
+    second: Animal#2 jump_18
+  - first:
+      213: 4378692182317060540
+    second: Animal#2 jump_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animal#2 jump_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 407
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c2250a9ea35674dae0b6baf09aeb2d
+      internalID: -3563457831679088780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 49
+        width: 417
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba4fcb25b1c7344aad7243b1960fd56
+      internalID: -6092535079054209738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_2
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 49
+        width: 440
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e81474f503a3142bf3a87c33d935f7
+      internalID: -1392355592534723303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_3
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 49
+        width: 436
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e573425952b6245a4df4358621edbb
+      internalID: -7397576334098746671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_4
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 49
+        width: 436
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f32e72f110db648a1cab10cb63179e
+      internalID: 1717356245197294056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_5
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 54
+        width: 436
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd222e69b39ae44392652ecded75332
+      internalID: 7926965369183802893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_6
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 59
+        width: 436
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf9720ef98ee144a9f93616188075e5
+      internalID: -4634905376747910467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_7
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 59
+        width: 435
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e3ff02157de66409a86342ccef4d04
+      internalID: 3958649546618244888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_8
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 59
+        width: 413
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47ae3b3bd1109049868e39f90dd131e
+      internalID: -2547477456209863572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_9
+      rect:
+        serializedVersion: 2
+        x: 4357
+        y: 64
+        width: 408
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0b5d9a99ba5934ead0980cb41a62e4
+      internalID: 538146954172225915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_10
+      rect:
+        serializedVersion: 2
+        x: 4845
+        y: 68
+        width: 402
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab4d3c67a3abe498d2dfc698af9206
+      internalID: 2444513470830345875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_11
+      rect:
+        serializedVersion: 2
+        x: 5318
+        y: 87
+        width: 412
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b95866e221e134dac9c51ee52387cf
+      internalID: 3185251724668839586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_12
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 59
+        width: 431
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c03705b55bd6324b95b1c3b3c8fd9a8
+      internalID: -9006875949653625590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_13
+      rect:
+        serializedVersion: 2
+        x: 6260
+        y: 59
+        width: 431
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b92236e744381d44b13bfe00d52eb90
+      internalID: 1047934691739652750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_14
+      rect:
+        serializedVersion: 2
+        x: 6734
+        y: 59
+        width: 436
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4207bbc26367654b97dfdfc7528404a
+      internalID: -3762875368947984915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_15
+      rect:
+        serializedVersion: 2
+        x: 7226
+        y: 45
+        width: 426
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed209ae8eea49564695c8f402abeace3
+      internalID: 1298191638613166561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_16
+      rect:
+        serializedVersion: 2
+        x: 7744
+        y: 40
+        width: 386
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cc1c68b81b2c849adc4d304c0b0dbb
+      internalID: -2780487608051191093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_17
+      rect:
+        serializedVersion: 2
+        x: 8205
+        y: 45
+        width: 401
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dba3540a8872ea48b34d2710a3b3034
+      internalID: -7635125877985436512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_18
+      rect:
+        serializedVersion: 2
+        x: 8679
+        y: 40
+        width: 408
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6575c1c450981429e5b86436b0726c
+      internalID: 7169041914101069893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animal#2 jump_19
+      rect:
+        serializedVersion: 2
+        x: 9157
+        y: 31
+        width: 408
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d57a2f351c99b4fa5093f2ad693baf
+      internalID: 4378692182317060540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
